@@ -12,6 +12,11 @@ body {
     color: white;
 }
 
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
 .left button {
     background-color: #3882f6;
     color: white;
@@ -21,9 +26,16 @@ body {
     font-weight: bold;
 }
 
+.left h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
 .right {
     height: 250px;
-    width: 300px;
+    width: 450px;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -31,18 +43,18 @@ body {
 }
 
 .img {
-    height: 150px;
-    width: 150px;
-    border-radius: 5px;
-    border: 2px solid #3882f6;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
 }
 
-.fourth {
-    background-color: #e5e7eb;
+#p {
     color: #1f2397;
     font-style: italic;
     font-weight: lighter;
     font-size: 36px;
+    margin-bottom: 0px;
 }
 
 #info {
@@ -61,4 +73,101 @@ ul {
     justify-content: space-between;
     padding: 8px 156px;
     align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.first {
+    gap: 16px;
+    padding: 75px 156px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left {
+    height: 250px;
+    width: 300px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs p {
+    height: auto;
+    width: 140px;
+    margin-top: 5px;
+}
+
+.third {
+    padding: 60px 550px;
+    background-color: #e5e7eb;
+}
+
+#p2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1f2937;
+    margin-top: 0;
+}
+
+#para {
+    margin-left: 550px;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-body {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 16px 50px;
+    width: 80rem;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.lft p {
+    margin: 0;
+}
+
+#p1 {
+    font-size: 22px;
+    color: white;
+}
+
+#p3 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.rgt button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 5px;
 }
